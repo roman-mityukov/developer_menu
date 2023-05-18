@@ -1,15 +1,24 @@
 name: developer_menu
 description: A new Flutter project.
 version: 0.0.1
-homepage:
+homepage: 'https://github.com/roman-mityukov/developer_menu'
+repository: 'https://github.com/roman-mityukov/developer_menu'
+
+platforms:
+  android:
+  ios:
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.2
+  provider: ^6.0.5
+  share_plus: ^7.0.0
 
 dev_dependencies:
   flutter_test:

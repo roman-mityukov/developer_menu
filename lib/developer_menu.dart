@@ -1,7 +1,9 @@
 library developer_menu;
+export 'src/ui/developer_menu_widget.dart';
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+class DeveloperMenu {
+  static String? logFilePath;
+  static void init(String path) {
+    logFilePath = path;
+  }
 }
